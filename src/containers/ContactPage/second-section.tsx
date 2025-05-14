@@ -7,7 +7,7 @@ export default function SecondSection() {
     {
       imgIcon: "/imgs/img_contact/icon-wa.png",
       altText: "Whatsapp",
-      contactInfo: "+62 882-1810-9487",
+      contactInfo: "+62 888-2819-9488",
     },
     {
       imgIcon: "/imgs/img_contact/icon-email.png",
@@ -17,8 +17,7 @@ export default function SecondSection() {
     {
       imgIcon: "/imgs/img_contact/icon-location.png",
       altText: "Location",
-      contactInfo:
-        "Jl. Pagermaneuh no.10 no lorem ipsum dolor sit amet dsdsdasdas",
+      contactInfo: "Jl. lorem ipsum dolor sit amet no.10",
     },
   ];
 

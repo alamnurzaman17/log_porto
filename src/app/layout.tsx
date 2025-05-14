@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className="relative min-w-full min-h-screen">
         <Navbar />
         <MobileHeader />
-        <ResponsiveDesign />
+        {/* <ResponsiveDesign /> */}
         <main>{children}</main>
       </body>
     </html>

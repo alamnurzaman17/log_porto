@@ -14,7 +14,7 @@ export default function about() {
       <ThirdSection />
       <FourthSection />
       <TeamSection />
-      <ResponsiveDesign />
+      {/* <ResponsiveDesign /> */}
       <FooterOtherPage />
     </section>
   );

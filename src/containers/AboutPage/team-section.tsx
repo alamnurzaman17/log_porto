@@ -11,9 +11,9 @@ import { MotionDiv } from "@/components/MotionDiv";
 const TeamSection = () => {
   const teamMembers = [
     {
-      name: "Alam Nurzaman",
+      name: "Brooklyn Mejia",
       role: "Frontend Developer",
-      image: "/imgs/img_about/12.png", // Ganti dengan path gambar yang sesuai
+      image: "/imgs/img_about/1.jpeg", // Ganti dengan path gambar yang sesuai
       socials: {
         facebook: "#",
         twitter: "#",
@@ -22,9 +22,20 @@ const TeamSection = () => {
       },
     },
     {
-      name: "Reichan Muhammad Maulana",
+      name: "Abby Deleon",
+      role: "Frontend Developer",
+      image: "/imgs/img_about/5.jpeg",
+      socials: {
+        facebook: "#",
+        twitter: "#",
+        instagram: "#",
+        linkedin: "#",
+      },
+    },
+    {
+      name: "Willow AndradeWillow Andrade",
       role: "Mobile Developer",
-      image: "/imgs/img_about/13.png",
+      image: "/imgs/img_about/2.jpeg",
       socials: {
         facebook: "#",
         twitter: "#",
@@ -33,9 +44,9 @@ const TeamSection = () => {
       },
     },
     {
-      name: "Angga Cahya Abadi",
+      name: "Gary Estrada",
       role: "UI/UX",
-      image: "/imgs/img_about/14.png",
+      image: "/imgs/img_about/3.jpeg",
       socials: {
         facebook: "#",
         twitter: "#",
@@ -44,9 +55,9 @@ const TeamSection = () => {
       },
     },
     {
-      name: "Dafa Rizky Fahreza",
+      name: "Amelia Buchanan",
       role: "Backend Developer",
-      image: "/imgs/img_about/15.png",
+      image: "/imgs/img_about/4.jpeg",
       socials: {
         facebook: "#",
         twitter: "#",
@@ -54,10 +65,11 @@ const TeamSection = () => {
         linkedin: "#",
       },
     },
+
     {
-      name: "Saeful Anwar Oktariansah",
-      role: "Frontend Developer",
-      image: "/imgs/img_about/16.png",
+      name: "Jada Dominguez",
+      role: "Backend Developer",
+      image: "/imgs/img_about/6.jpeg",
       socials: {
         facebook: "#",
         twitter: "#",

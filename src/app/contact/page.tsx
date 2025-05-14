@@ -9,7 +9,7 @@ export default function contact() {
       <HeroSection />
       <SecondSection />
       <FooterOtherPage />
-      <ResponsiveDesign />
+      {/* <ResponsiveDesign /> */}
       {/* <h1 className="text-6xl font-bold">Contact Page</h1>
       <p className="text-xl mt-4">This is a Next.js app with Tailwind CSS.</p> */}
     </section>
