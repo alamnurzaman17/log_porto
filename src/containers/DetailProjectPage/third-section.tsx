@@ -152,12 +152,12 @@ const Thirdsection = () => {
 
         <div>
           <p className="text-sm md:text-xl text-gray-500 text-justify tracking-tight font-normal font-lato">
-            Koperasi "Maju Bersama" mempercayakan Lead On Global untuk merancang
+            Koperasi Maju Bersama mempercayakan Lead On Global untuk merancang
             dan mengembangkan sistem informasi koperasi mereka dari awal. Lead
             On Global memulai dengan merancang sistem yang memenuhi kebutuhan
             koperasi serta memaksimalkan user experience untuk meningkatkan
             efisiensi dan efektivitas. Setelah penerapan strategi oleh tim
-            pengembangan, koperasi "Maju Bersama" berhasil mencatat peningkatan
+            pengembangan, koperasi Maju Bersama berhasil mencatat peningkatan
             aktivitas anggota baik dalam penggunaan sistem informasi koperasi
             maupun dalam partisipasi online.
           </p>

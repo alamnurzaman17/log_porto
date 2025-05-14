@@ -36,7 +36,7 @@ export default function HeroSection() {
           Contact
         </h1>
         <p className="text-sm lg:text-base mt-2 text-Dark4">
-          Have a Questions? We're Here To Help
+          Have a Questions? We Are Here To Help
         </p>
       </MotionDiv>
     </section>

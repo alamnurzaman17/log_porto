@@ -55,7 +55,7 @@ export default function SecondSection() {
             dedicated to providing top-quality software solutions. Our team of
             skilled developers and designers prioritizes user-friendly
             interfaces and experiences. We specialize in affordable yet
-            high-quality applications tailored to our clients' needs. With our
+            high-quality applications tailored to our clients needs. With our
             collaborative and diverse approach, we deliver professional results
             for clients worldwide.
           </p>

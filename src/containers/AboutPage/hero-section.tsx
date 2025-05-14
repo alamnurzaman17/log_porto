@@ -36,7 +36,7 @@ export default function HeroSection() {
           About Us
         </h1>
         <p className="text-sm lg:text-base mt-2 text-Dark4">
-          Alright Let's Get To Know About History of Lead On Global
+          Alright Lets Get To Know About History of Lead On Global
         </p>
       </MotionDiv>
     </section>

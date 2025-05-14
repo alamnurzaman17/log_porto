@@ -51,8 +51,8 @@ export default function FifthSection() {
             LOG Can Solve Your Business Problem
           </h1>
           <p className="text-base font-lato w-[400px] sm:w-[572px] mx-auto mb-10 sm:mb-14">
-            Experience the difference with LOG's comprehensive solutions for
-            your business.
+            Experience the difference with LOGs comprehensive solutions for your
+            business.
           </p>
         </MotionDiv>
         <div className="w-full grid gap-5 px-5 md:px-0 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-12 text-start">

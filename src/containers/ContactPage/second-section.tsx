@@ -87,7 +87,7 @@ export default function SecondSection() {
         className="xl:w-1/2 mb-8 xl:mb-0 border-2 border-Dark1"
       >
         <h1 className="text-3xl text-center xl:text-left md:text-4xl font-satoshi font-medium md:font-bold mb-4 md:mb-0 px-5 md:px-40 pt-10 xl:pl-10 md:pt-10">
-          Let's level up your brand, together
+          Lets level up your brand, together
         </h1>
         <p className="text-Dark2 text-center xl:text-left mb-8 lg:mb-10 md:px-10 md:py-5">
           You can reach us anytime via

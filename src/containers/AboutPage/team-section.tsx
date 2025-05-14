@@ -91,8 +91,8 @@ const TeamSection = () => {
           Meet Our Team
         </h2>
         <p className="text-center text-gray-600 mb-12">
-          We'd love to share our unique approach with you. Feel free to reach
-          out to our entire team.
+          We love to share our unique approach with you. Feel free to reach out
+          to our entire team.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center items-center">
           {teamMembers.map((member, index) => (

@@ -122,7 +122,7 @@ export default function FooterHomePage() {
               viewport={{ once: true, amount: 1 }}
               className="flex items-center gap-3 mt-10 w-fit h-fit py-1 px-1 bg-Light1 border-2 border-black"
             >
-              <span className="ml-2 text-lg">Let's Talk</span>
+              <span className="ml-2 text-lg">Lets Talk</span>
               <GoArrowRight color="white" className="w-10 h-10 p-2 bg-black" />
             </motion.button>
           </div>
