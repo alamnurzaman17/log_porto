@@ -1,0 +1,17 @@
+.item:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #090909;
+  border: 1px solid #fff;
+  top: 0;
+  left: 0;
+}
+.item__content {
+  transform: translate(-4px, -4px);
+  transition: transform 0.2s;
+}
+.item__content:hover {
+  transform: translate(0, 0);
+}

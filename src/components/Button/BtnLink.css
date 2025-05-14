@@ -1,0 +1,24 @@
+.BtnLink span {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  transform: translateX(-101%);
+  background-color: transparent;
+  transition: transform 0.2s ease-in;
+}
+
+.BtnLink:hover span {
+  transform: translateX(0);
+  background-color: #38dd77;
+}
+
+.BtnLink span.active {
+  background-color: #38dd77;
+  transform: translateX(0%);
+}
+
+#active {
+  font-weight: bold;
+}
