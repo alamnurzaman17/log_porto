@@ -67,7 +67,9 @@ export default function CardOurAdvantage({
               {title}
             </h2>
           </div>
-          <p className="font-lato">{desc}</p>
+          <p className="font-lato text-sm sm:text-base text-gray-600 dark:text-gray-400 leading-relaxed flex-grow">
+            {desc}
+          </p>
         </div>
       </motion.div>
     </>

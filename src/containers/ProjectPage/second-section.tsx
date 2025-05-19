@@ -138,7 +138,7 @@ const SecondSection = (projects: any) => {
     <section>
       {/* Category filter buttons */}
       <motion.div
-        className=" flex flex-row items-center justify-center w-full pt-12"
+        className=" flex flex-row items-center justify-center w-full pt-12 ml-2"
         initial={{ x: -100, opacity: 0 }} // State awal sebelum animasi dimulai
         animate={{ x: 0, opacity: 1 }} // State akhir setelah animasi
         transition={{ type: "spring", stiffness: 260, damping: 80 }} // Transisi animasi

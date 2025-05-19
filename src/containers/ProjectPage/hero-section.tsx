@@ -13,13 +13,13 @@ const HeroSection = () => {
       }}
     >
       <motion.div
-        className="items-center text-center flex flex-col 2xl:mt-12"
+        className="max-w-3xl flex flex-col items-center"
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
         <h1
-          className="w-96 text-center text-white 2xl:text-6xl xl:text-6xl lg:text-5xl text-4xl font-medium font-['Satoshi'] leading-10 mb-8"
+          className="w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl  text-center text-white text-4xl sm:text-5xl lg:text-6xl font-medium font-[satoshi] leading-tight sm:leading-snug mb-6 md:mb-8"
           style={{
             backgroundImage:
               "linear-gradient(180deg, #ffffff 10%, #6C6C6C 100%)",
@@ -29,7 +29,7 @@ const HeroSection = () => {
         >
           Our Works
         </h1>
-        <h2 className="text-center 2xl:w-[600px] 2xl:text-[16px] text-sm text-[#cfc6c6de] text-opacity-75 font-normal font-['Satoshi'] leading-tight tracking-wide">
+        <h2 className="w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl text-center text-sm sm:text-base text-gray-300 font-[satoshi] leading-relaxed tracking-wide">
           Developing Koperasi Information System (Web App) for Koperasi Pekerja
           Indonesia Maju, Indonesia.
         </h2>

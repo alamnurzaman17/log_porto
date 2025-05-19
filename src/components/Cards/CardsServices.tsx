@@ -63,7 +63,7 @@ export default function CardsServices({
           initial={{ opacity: 0, x: isEven ? -20 : 20 }}
           animate={isVisible ? { opacity: 1, x: 0 } : { opacity: 0 }}
           transition={{ type: "spring", duration: 1.5, delay: 0.5 }}
-          className="relative w-[21rem] sm:w-[25rem] md:w-[19rem] lg:w-[32rem] xl:w-[34rem] h-[13rem] sm:h-[17rem] md:h-[12rem] lg:h-[20rem] xl:h-[22rem] mb-4 border-2 border-black"
+          className="relative md:ml-5 w-[21rem] sm:w-[25rem] md:w-[19rem] lg:w-[32rem] xl:w-[34rem] h-[13rem] sm:h-[17rem] md:h-[12rem] lg:h-[20rem] xl:h-[22rem] mb-4 border-2 border-black"
         >
           <Image
             src={imageUrl}
@@ -83,7 +83,7 @@ export default function CardsServices({
           <h2 className="title-font text-2xl md:text-3xl mb-2 md:mb-7 font-semibold text-Dark1 font-satoshi">
             {title}
           </h2>
-          <p className="mb-6 md:mb-7 font-lato text-Dark2 w-[400px] sm:w-[570px] md:w-[330px] xl:w-[530px]">
+          <p className="font-lato text-Dark2 dark:text-gray-300 text-base sm:text-lg leading-relaxed mb-6 sm:mb-8 max-w-prose md:max-w-none">
             {text}
           </p>
           <div className="flex justify-center">

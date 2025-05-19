@@ -23,7 +23,7 @@ export default function FooterOtherPage() {
               Lead On Global Indonesia
             </p>
             <p className="mb-4">
-              <span className="md:hidden">Phone : </span>+62 938 4314 135
+              <span className="md:hidden">Phone : </span>+62 888-2819-9488
             </p>
             <p className="mb-4">
               <span className="md:hidden">Email : </span>

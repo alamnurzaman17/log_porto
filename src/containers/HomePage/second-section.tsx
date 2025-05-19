@@ -122,7 +122,7 @@ export default function SecondSection() {
                     {item.title}
                   </h2>
                 </div>
-                <p className="font-lato">{item.desc}</p>
+                <p className="font-lato text-sm sm:text-lg">{item.desc}</p>
               </div>
             </MotionDiv>
           ))}

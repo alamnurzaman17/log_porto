@@ -31,7 +31,7 @@ export default function SecondSection() {
       altText: "Linkedin",
     },
     {
-      iconsrc: "/imgs/img_contact/contact-Facebook.svg",
+      iconsrc: "/imgs/img_contact/contact-facebook.svg",
       altText: "Facebook",
     },
     {
