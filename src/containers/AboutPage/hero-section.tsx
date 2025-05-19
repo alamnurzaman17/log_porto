@@ -35,7 +35,7 @@ export default function HeroSection() {
         <h1 className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-400">
           About Us
         </h1>
-        <p className="text-sm lg:text-base mt-2 text-Dark4">
+        <p className="w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl text-center text-sm sm:text-base text-gray-300 font-[satoshi] leading-relaxed tracking-wide">
           Alright Lets Get To Know About History of Lead On Global
         </p>
       </MotionDiv>

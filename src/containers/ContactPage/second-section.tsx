@@ -92,19 +92,22 @@ export default function SecondSection() {
           You can reach us anytime via
         </p>
 
-        <div className="flex flex-col items-center xl:items-start px-10 mb-4">
+        <div className="flex flex-col items-center xl:items-start px-4 sm:px-6 md:px-8 xl:px-10 mb-4">
           {/* Contact Data (Rata ke bawah secara vertikal) */}
-          <div className="flex flex-col mb-4 sm:mb-8 lg:mb-10 xl:mb-20">
+          <div className="flex flex-col w-full max-w-md mb-4 sm:mb-8 lg:mb-10 xl:mb-20">
             {contactData.map((data, index) => (
-              <div key={index} className="flex items-center mb-4">
+              <div
+                key={index}
+                className="flex items-center mb-4 sm:mb-5 md:mb-6"
+              >
                 <Image
                   src={data.imgIcon}
                   alt={data.altText}
                   width={70}
                   height={70}
-                  className="w-12 h-12 lg:w-14 lg:h-14"
+                  className="w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 flex-shrink-0"
                 />
-                <p className="ml-4 font-semibold md:text-normal">
+                <p className="ml-3 sm:ml-4 font-semibold text-sm sm:text-base md:text-base lg:text-lg">
                   {data.contactInfo}
                 </p>
               </div>
@@ -121,7 +124,7 @@ export default function SecondSection() {
                   alt={data.altText}
                   width={70}
                   height={70}
-                  className="w-12 h-12"
+                  className="w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 flex-shrink-0"
                 />
               </div>
             ))}
